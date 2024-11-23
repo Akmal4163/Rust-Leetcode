@@ -5,7 +5,7 @@ fn main() {
 
 #[cfg(test)]
 mod tests {
-    use lc01::{longest_common_prefix::longest_common_prefix, palindrome::is_palindrome, remove_duplicates::remove_duplicates, remove_element::remove_element, search_insert::search_insert, two_sum::two_sum, valid_parenthesis::is_valid_parenthesis};
+    use lc01::*;
 
     #[test]
     pub fn lc_search_insert_1() {
